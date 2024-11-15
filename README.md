@@ -21,20 +21,7 @@ Kafka Topics	Communication channels for services.
 |  (Producer)   |         |  Service        |       | (Consumer)         |  
 |               |         |  (Consumer)     |       |                   |  
 +---------------+         +-----------------+        +-------------------+  
-🚀 How to Run
 
-1️⃣ Prerequisites
-🐳 Docker Desktop Installed
-☕ Java 17+
-🔧 Kafka & Zookeeper setup
-2️⃣ Clone the Repository
-git clone https://github.com/your-username/your-repo.git  
-cd your-repo  
-3️⃣ Start Docker Containers
-docker-compose up -d  
-4️⃣ Run Microservices
-Open each service (Order, Notification, Payment) in your IDE.
-Run each service on separate ports.
 🌐 API Endpoints
 
 🛒 Order Service 
